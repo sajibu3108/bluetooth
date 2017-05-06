@@ -1,0 +1,31 @@
+<ion-view title="App Geolocalizacion">
+    <ion-content class="has-header" padding="true">
+      <label class="item item-input">
+        <span class="input-label">Username</span>
+        <input type="text">
+      </label>
+      <div class="card">
+                      <div class="item item-divider">
+                        Geolocalizacion
+                      </div>
+
+                      <div class="item item-body">
+                        <strong>Latitud</strong>  {{latitud}}
+                      </div>
+                      <div class="item item-body">
+                        <strong>Longitud</strong> {{longitud}}
+                      </div>
+
+                    </div>
+                    </div>
+          <div class="card">
+                <div class="item item-divider">
+                  Brujula
+                </div>
+
+                <div class="item item-body">
+                  <strong>Magnetic Heading</strong> &nbsp {{heading.magneticHeading}}
+                </div>
+              </div>
+    </ion-content>
+</ion-view>
